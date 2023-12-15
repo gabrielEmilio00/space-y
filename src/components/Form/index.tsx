@@ -116,7 +116,7 @@ function Form() {
 					<label htmlFor="checkbox">Concordo em receber comunicações</label>
 				</FormCheck>
 				<FormButton>
-					<Button text="Garantir minha vaga" fullsize />
+					<Button text="Garantir minha vaga" fullsize={1} />
 				</FormButton>
 			</form>
 			{loader ? <Loader /> : ''}

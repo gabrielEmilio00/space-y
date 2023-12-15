@@ -73,6 +73,7 @@ function App() {
 
 					<Button
 						text="Inscreva-se agora"
+						fullsize={0}
 						click={() => {
 							scrollTo('contact');
 						}}

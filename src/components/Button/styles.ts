@@ -8,8 +8,8 @@ export const ButtonComponent = styled.button<IButton>`
 	cursor: pointer;
 	outline: none;
 
-	width: ${({ fullsize }) => (fullsize === true ? '100%' : pixelToRem(264))};
-	height: ${({ fullsize }) => (fullsize === true ? '100%' : pixelToRem(52))};
+	width: ${({ fullsize }) => (fullsize ? '100%' : pixelToRem(264))};
+	height: ${({ fullsize }) => (fullsize ? '100%' : pixelToRem(52))};
 	border: 0;
 	border-radius: 6px;
 
