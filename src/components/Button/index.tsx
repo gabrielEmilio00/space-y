@@ -1,17 +1,18 @@
-import React from "react";
-import { ButtonComponent } from "./styles";
+import React from 'react';
+import { ButtonComponent } from './styles';
 
 export interface IButton {
-  text?: string;
-  fullSize?: boolean;
+	text?: string;
+	fullsize?: boolean;
+	click?: () => void;
 }
 
-function Button({ text, fullSize }: IButton) {
-  return (
-    <ButtonComponent fullSize={fullSize}>
-      {text}
-    </ButtonComponent>
-  )
+function Button({ text, fullsize, click }: IButton) {
+	return (
+		<ButtonComponent fullsize={fullsize} onClick={click}>
+			{text}
+		</ButtonComponent>
+	);
 }
 
 export default Button;

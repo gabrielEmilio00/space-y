@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
   --space: #0b1e8a;
   --space-light: #3d68b2;
   --space-dark: #040327;
+  --dark-blue-form: #0e0d40;
   --gray-01: #0d0e13;
   --gray-02: #2c2d3a;
   --gray-03: #60616f;
@@ -38,6 +39,7 @@ export const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -56,4 +58,4 @@ body {
   overflow-x: hidden;
 }
 
-`
+`;
