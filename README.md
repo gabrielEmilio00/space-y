@@ -61,3 +61,5 @@ O layout foi desenvolvido por [Figmentor](https://figmentor.cc) e está diponív
 ## 📊 Status do projeto
 
 ✔️ Concluído
+
+▶️ Acesse [https://space-mb4v6cibn-gabrielemilio00.vercel.app](https://space-mb4v6cibn-gabrielemilio00.vercel.app)
