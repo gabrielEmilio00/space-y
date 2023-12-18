@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# SpaceY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![capa](.github/Cover.jpg)
 
-## Available Scripts
+## 📷 Screenshot
 
-In the project directory, you can run:
+![mockup](.github/Mockup.png)
 
-### `npm start`
+## 📋 Descrição
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Embarque nessa incrível viagem para Marte com a SpaceY.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Este projeto consiste em uma landing page inspirada no planeta vermelho e no sonho da humanidade de se tornar uma espécie multiplanetária.
 
-### `npm test`
+## 🧪 Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Foram utilizadas as seguintes tecnologias neste projeto
 
-### `npm run build`
+- [React](https://pt-br.legacy.reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Styled-components](https://styled-components.com)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Ticker](https://www.npmjs.com/package/framer-motion-ticker)
+- [Toast](https://www.npmjs.com/package/react-toastify/v/8.0.3)
+- [react-hook-form](https://react-hook-form.com/get-started)
+- [zod](https://zod.dev)
+- [json-server](https://www.npmjs.com/package/json-server)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+No terminal clone a pasta do projeto com seguinte comando:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+1. git clone https://github.com/gabrielEmilio00/space-y.git
 
-### `npm run eject`
+2. cd space-y
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Em seguida instale as dependências com
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+3. npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+E por fim rode o projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+4. npm run start
 
-## Learn More
+5. npm run database
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Após rodar acesse o endereço [http://localhost:3000](http://localhost:3000)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔖 Layout
+
+O layout foi desenvolvido por [Figmentor](https://figmentor.cc) e está diponível no Figma community.
+
+- [Layout](https://www.figma.com/community/file/986447430009792279/spacey-figmentor)
+
+## 📊 Status do projeto
+
+✔️ Concluído
